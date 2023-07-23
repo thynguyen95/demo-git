@@ -1,3 +1,5 @@
+Khởi tạo dự án:
+
 1. Cấu hình git: chỉ 1 lần duy nhất khi mới cài git.
 cấu hình tên: git config --global user.name "your name"
 cấu hình email: git config --global user.email "your mail"
@@ -8,3 +10,8 @@ kiểm tra cấu hình: git config --list
 4. kết nối 2 repository vừa tạo với nhau
 git init 
 git remote add origin 'đường dẫn trên github'
+5. khai báo các file cần thêm vào local repository
+Khi cần add 1 file cụ thể: git add [ten file]
+Khi muốn add tất cả các file : git add . hoặc git add -A
+
+Tham gia vào dự án có sẵn:
