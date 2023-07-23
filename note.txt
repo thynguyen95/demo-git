@@ -1,0 +1,10 @@
+1. Cấu hình git: chỉ 1 lần duy nhất khi mới cài git.
+cấu hình tên: git config --global user.name "your name"
+cấu hình email: git config --global user.email "your mail"
+kiểm tra cấu hình: git config --list
+
+2. Khởi tạo remote repository(github)
+3. Khởi tạo remote local(trên máy tính của mình).
+4. kết nối 2 repository vừa tạo với nhau
+git init 
+git remote add origin 'đường dẫn trên github'
